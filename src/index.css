@@ -1,0 +1,128 @@
+body {
+  color: #323232;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.lobster-font {
+  background-color: #7bd2d1;
+  color: white;
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+}
+
+h1 {
+  padding: 5px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#root {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fa-utensils {
+  border: 2px solid white;
+  border-radius: 50px;
+  padding: 9px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.details {
+  text-align: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  width: 49%;
+  float: right;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 30% 8% 62%;
+}
+
+.details h1 {
+  display: grid;
+  align-content: center;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.details h3 {
+  display: grid;
+  align-content: center;
+}
+
+.details ul li {
+  font-size: 18px;
+}
+
+.recipe-name {
+  text-align: center;
+  display: grid;
+  grid-column: span 2;
+}
+
+.directory {
+  height: 100vh;
+  border-right: 1px solid #323232;
+  font-family: 'Montserrat', sans-serif;
+  width: 50%;
+  float: left;
+}
+
+form {
+  width: 75%;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-right: 5%;
+  width: 75%;
+  display: inline-block;
+}
+
+button {
+  display: inline-block;
+  color: white;
+  background-color: #7bd2d1;
+  padding: 6px;
+  width: 15%;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1px 1px;
+}
+
+.recipeName {
+  padding: 10px;
+  width: 70%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.recipeName:hover {
+  background-color: #7bd2d1;
+  color: white;
+  cursor: pointer;
+}
